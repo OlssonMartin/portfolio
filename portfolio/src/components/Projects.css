@@ -1,0 +1,46 @@
+.projects-section {
+    padding: 40px 20px; /* Utrymme ovanför och under sektionen */
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap; /* Gör så att korten radbryts */
+    justify-content: center; /* Centrera korten */
+    margin: 20px 0; /* Mellanrum över och under sektionen */
+}
+
+.project-card {
+    background-color: #ffffff; /* Vit bakgrund för kortet */
+    border-radius: 10px; /* Rundade hörn */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15); /* Lätt skugga för djup */
+    text-align: center; /* Centrera texten */
+    margin: 20px; /* Utrymme mellan korten */
+    padding: 20px; /* Utrymme inuti kortet */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth scaling and shadow */
+}
+
+.project-card:hover {
+    transform: translateY(-5px); /* Gör kortet lite större vid hover */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Djupare skugga vid hover */
+}
+
+.project-card h4 {
+    margin: 15px 0; /* Avstånd över och under rubriken */
+    color: #333; /* Mörk färg för rubriken */
+}
+
+.project-card p {
+    color: #666; /* Ljusare färg för beskrivningen */
+    margin-bottom: 15px; /* Avstånd under beskrivningen */
+}
+
+.project-card a {
+    text-decoration: none; /* Ingen understrykning */
+    color: #007bff; /* Länkfärg */
+    font-weight: bold; /* Fet stil för länken */
+    transition: color 0.3s; /* Smidig övergång för färgändring */
+}
+
+.project-card a:hover {
+    color: #0056b3; /* Mörkare nyans vid hover */
+}

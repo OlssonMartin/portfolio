@@ -1,0 +1,33 @@
+.footer {
+    width: 100%; /* Täcker hela bredden */
+    padding: 20px; /* Utrymme inuti footern */
+    background-color: #ffffff; /* Vit bakgrund */
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1); /* Lätt skugga för djup */
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column; /* Ordna innehållet vertikalt */
+    align-items: center; /* Centrera innehållet */
+    text-align: center; /* Centrera texten */
+}
+
+.footer-content p {
+    margin: 5px 0; /* Utrymme mellan texten */
+    color: #666; /* Ljusare färg för texten */
+}
+
+.footer-links {
+    margin-bottom: 10px; /* Utrymme under länkarna */
+}
+
+.footer-links a {
+    text-decoration: none; /* Ingen understrykning */
+    color: #007bff; /* Länkfärg */
+    margin: 0 10px; /* Utrymme mellan länkarna */
+    transition: color 0.3s; /* Smidig övergång för färgändring */
+}
+
+.footer-links a:hover {
+    color: #0056b3; /* Mörkare nyans vid hover */
+}

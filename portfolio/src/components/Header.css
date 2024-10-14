@@ -1,0 +1,61 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #fff; /* Vit bakgrund */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Mörkare skugga för djup */
+    border-radius: 0; /* Ta bort rundade hörn */
+    margin: 0; /* Ta bort marginal för att sträcka sig över hela bredden */
+    width: 100%; /* Full bredd */
+    position: relative; /* Låt headern stå i sitt eget kontext */
+    z-index: 1000; /* Se till att den ligger ovanpå annat innehåll */
+}
+
+.header:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25); /* Förstärkning av skuggan vid hover */
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+font-size: 2.5em; /* Justera storleken som önskat /
+font-weight: bold;
+color: #007bff; / Accentfärg för logotypen */
+margin: 0;
+}
+
+.name {
+font-size: 1.6em; /* Justera storleken som önskat /
+color: #333; / Mörk färg för namnet */
+margin: 0;
+padding-left: 10px;
+}
+
+.navigation {
+margin-left: auto; /* Skjuta navigationen till höger */
+}
+
+.navigation ul {
+list-style-type: none;
+padding: 0;
+display: flex;
+}
+
+.navigation li {
+margin: 0 20px; /* Mellanrum mellan länkarna */
+}
+
+.navigation a {
+text-decoration: none;
+color: #000000; /* Accentfärg för länkar /
+font-weight: 600;
+transition: color 0.3s ease; / Smidig övergång för färgändring */
+}
+
+.navigation a:hover {
+color: #3722b0; /* Mörkare nyans vid hover */}

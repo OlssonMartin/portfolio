@@ -1,0 +1,89 @@
+body {
+  background-color: #ffffff; /* Vit bakgrund för hela sidan */
+  font-family: 'Arial', sans-serif; /* Typsnitt för hela sidan */
+  margin: 0; /* Ingen marginal */
+  height: 100vh; /* Sätt höjden på body till 100% av viewport-höjd */
+}
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centrera alla sektioner */
+  min-height: 100vh; /* Gör så att appen alltid tar upp minst 100% av höjden */
+  width: 100%; /* Full bredd */
+  margin: 0; /* Ingen marginal */
+}
+
+.welcome-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full höjd av viewport */
+  width: 100vw; /* Full bredd av viewport */
+  background-color: #ffffff; /* Vit bakgrund för välkomstskärmen */
+  padding: 20px; /* Lägg till padding för att ge lite utrymme */
+}
+
+.welcome-text {
+  text-align: center;
+}
+
+.welcome-text h1 {
+  font-size: 4em; /* Storlek på namnet */
+  margin: 0; /* Ta bort margin för h1 */
+  color: #333; /* Mörk färg för bättre kontrast */
+}
+
+.welcome-text h2 {
+  font-size: 2em; /* Storlek på titeln */
+  margin: 10px 0; /* Marginal över och under titeln */
+  color: #666; /* Ljusare färg för titeln */
+}
+
+.section {
+  max-width: 66%; /* Sätt maxbredd till 66% av viewporten */
+  width: 100%; /* Full bredd inom maxbredd */
+  margin: 60px auto; /* Centrera sektionen med automatisk marginal */
+  padding: 20px; /* Avstånd inuti sektionen */
+  border-radius: 10px; /* Rundade hörn */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Lätt skugga för djup */
+  background-color: #ffffff; /* Vit bakgrund för sektionerna */
+}
+
+/* Extra styling för rubriker inom sektioner */
+.section h3 {
+  margin-bottom: 20px; /* Avstånd under rubriken */
+  font-size: 1.8em; /* Justera storlek på rubriker */
+  color: #333; /* Mörk färg för rubriker */
+}
+
+/* Styling för paragrafer inom sektioner */
+.section p {
+  line-height: 1.6; /* Öka radavståndet för läsbarhet */
+  margin: 10px 0; /* Avstånd mellan stycken */
+  color: #444; /* Ljusare mörk färg för text */
+}
+
+/* Responsiv design */
+@media (max-width: 768px) {
+  .welcome-text h1 {
+      font-size: 3em; /* Minska storleken på namnet på mindre skärmar */
+  }
+
+  .welcome-text h2 {
+      font-size: 1.5em; /* Minska storleken på titeln på mindre skärmar */
+  }
+
+  .section {
+      padding: 15px; /* Minska padding på mindre skärmar */
+      width: 90%; /* Justera bredden på sektioner för mindre skärmar */
+      max-width: none; /* Ta bort maxbredd på mindre skärmar */
+  }
+}
+
+.fade {
+  transition: opacity 0.5s ease; /* Mjuk övergång för opacitet */
+}
+
+.hidden {
+  opacity: 0; /* Döljer texten med opacitet */
+}
