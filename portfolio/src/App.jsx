@@ -4,16 +4,17 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
 import Header from './components/Header';
-import './App.css'; // Länka till din CSS-fil här
+import Contact from './components/Contact';
+import './App.css'; 
 
 
 
 const App = () => {
-  const [hover, setHover] = useState(false); // State för hover-effekt
+  const [hover, setHover] = useState(false); 
 
   return (
       <div className="app">
-          <Header /> {/* Lägg till Header här */}
+          <Header />
           <header className="welcome-header">
           <div 
                     className="welcome-text" 
@@ -28,7 +29,9 @@ const App = () => {
           <About />
           <Skills />
           <Projects />
+          <Contact />
           <Footer />
+
       </div>
   );
 };

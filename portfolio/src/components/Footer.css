@@ -1,33 +1,33 @@
 .footer {
-    width: 100%; /* Täcker hela bredden */
-    padding: 20px; /* Utrymme inuti footern */
-    background-color: #ffffff; /* Vit bakgrund */
-    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1); /* Lätt skugga för djup */
+    width: 100%; 
+    padding: 20px; 
+    background-color: #ffffff; 
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1); 
 }
 
 .footer-content {
     display: flex;
-    flex-direction: column; /* Ordna innehållet vertikalt */
-    align-items: center; /* Centrera innehållet */
-    text-align: center; /* Centrera texten */
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
 }
 
 .footer-content p {
-    margin: 5px 0; /* Utrymme mellan texten */
-    color: #666; /* Ljusare färg för texten */
+    margin: 5px 0; 
+    color: #666; 
 }
 
 .footer-links {
-    margin-bottom: 10px; /* Utrymme under länkarna */
+    margin-bottom: 10px; 
 }
 
 .footer-links a {
-    text-decoration: none; /* Ingen understrykning */
-    color: #007bff; /* Länkfärg */
-    margin: 0 10px; /* Utrymme mellan länkarna */
-    transition: color 0.3s; /* Smidig övergång för färgändring */
+    text-decoration: none; 
+    color: #007bff; 
+    margin: 0 10px; 
+    transition: color 0.3s; 
 }
 
 .footer-links a:hover {
-    color: #0056b3; /* Mörkare nyans vid hover */
+    color: #0056b3; 
 }

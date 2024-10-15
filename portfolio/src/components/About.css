@@ -1,17 +1,17 @@
 .section {
-    max-width: 1200px; /* Gemensam maxbredd */
-    margin: 20px auto; /* Centrera sektionen */
-    padding: 20px; /* Avstånd inuti sektionen */
-    border-radius: 10px; /* Rundade hörn */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Lätt skugga */
-    background-color: #fff; /* Vit bakgrund */
+    max-width: 1200px; 
+    margin: 20px auto; 
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    background-color: #fff; 
 }
 
 .about-section h3 {
-    margin-bottom: 20px; /* Avstånd under rubriken */
+    margin-bottom: 20px; 
 }
 
 .about-section p {
-    line-height: 1.6; /* Öka radavståndet för läsbarhet */
-    margin: 10px 0; /* Avstånd mellan stycken */
+    line-height: 1.6; 
+    margin: 10px 0; 
 }

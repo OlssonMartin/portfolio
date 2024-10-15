@@ -1,12 +1,12 @@
 import React from 'react';
-import './Header.css'; // Länka till din CSS-fil för headern
+import './Header.css'; 
 
 const Header = () => {
-    // Funktion för att scrolla till sektionerna
+    
     const scrollToSection = (id) => {
         const element = document.getElementById(id);
         if (element) {
-            element.scrollIntoView({ behavior: 'smooth' }); // Smooth scroll-effekt
+            element.scrollIntoView({ behavior: 'smooth' }); 
         }
     };
 

@@ -1,54 +1,53 @@
 .skills-container {
     display: flex;
-    flex-wrap: wrap; /* Gör så att korten radbryts */
-    justify-content: center; /* Centrera korten */
-    margin: 20px 0; /* Mellanrum över och under sektionen */
-}
+    flex-wrap: wrap; 
+    justify-content: center; 
+    margin: 20px 0; 
 
 .skill-card {
-    background-color: #ffffff; /* Vit bakgrund för kortet */
-    border-radius: 10px; /* Rundade hörn */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Lätt skugga för djup */
-    text-align: center; /* Centrera texten under ikonerna */
-    margin: 10px; /* Minska utrymmet mellan korten */
-    padding: 10px; /* Utrymme inuti korten */
-    width: 20%; /* Justera bredden så att tre kan visas per rad */
-    min-width: 100px; /* Sätt ett minimivärde för bredden */
-    transition: transform 0.3s; /* Smooth scaling effect */
+    background-color: #ffffff; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    text-align: center; 
+    margin: 10px; 
+    padding: 10px; 
+    width: 20%; 
+    min-width: 100px; 
+    transition: transform 0.3s; 
 }
 
 .skill-card:hover {
-    transform: scale(1.05); /* Gör kortet lite större vid hover */
+    transform: scale(1.05);
 }
 
 .icon {
-    font-size: 3em; /* Justera storleken på ikonerna */
-    color: #333; /* Mörk färg för ikoner */
+    font-size: 3em; 
+    color: #333; 
 }
 
 .skill-card h4 {
-    margin-top: 10px; /* Utrymme över texten */
-    font-weight: bold; /* Fet stil för namnet */
+    margin-top: 10px; 
+    font-weight: bold; 
 }
 
 .skill-card p {
-    margin-top: 5px; /* Utrymme över nivån */
-    color: #666; /* Ljusare färg för nivån */
+    margin-top: 5px;
+    color: #666; 
 }
 .icon {
-    font-size: 3em; /* Justera storleken på ikonerna */
+    font-size: 3em; 
 }
 
-.skill-card:nth-child(1) .icon { color: #E44D26; } /* HTML5 */
-.skill-card:nth-child(2) .icon { color: #1572B6; } /* CSS3 */
-.skill-card:nth-child(3) .icon { color: #F7DF1E; } /* JavaScript */
-.skill-card:nth-child(4) .icon { color: #F7DF1E; } /* API */
-.skill-card:nth-child(5) .icon { color: #61DAFB; } /* React */
-.skill-card:nth-child(6) .icon { color: #000000; } /* UI/UX Design */
-.skill-card:nth-child(7) .icon { color: #F05032; } /* Git */
-.skill-card:nth-child(8) .icon { color: #181717; } /* GitHub */
-.skill-card:nth-child(9) .icon { color: #563D7C; } /* Bootstrap */
-.skill-card:nth-child(10) .icon { color: #F24E1E; } /* Figma */
-.skill-card:nth-child(11) .icon { color: #CB3837; } /* NPM */
-.skill-card:nth-child(12) .icon { color: #47A248; } /* MongoDB */
-.skill-card:nth-child(13) .icon { color: #38B2AC; } /* Tailwind */
+.skill-card:nth-child(1) .icon { color: #E44D26; } 
+.skill-card:nth-child(2) .icon { color: #1572B6; } 
+.skill-card:nth-child(3) .icon { color: #F7DF1E; } 
+.skill-card:nth-child(4) .icon { color: #F7DF1E; } 
+.skill-card:nth-child(5) .icon { color: #61DAFB; } 
+.skill-card:nth-child(6) .icon { color: #000000; }
+.skill-card:nth-child(7) .icon { color: #F05032; } 
+.skill-card:nth-child(8) .icon { color: #181717; } 
+.skill-card:nth-child(9) .icon { color: #563D7C; } 
+.skill-card:nth-child(10) .icon { color: #F24E1E; } 
+.skill-card:nth-child(11) .icon { color: #CB3837; } 
+.skill-card:nth-child(12) .icon { color: #47A248; } 
+.skill-card:nth-child(13) .icon { color: #38B2AC; } }

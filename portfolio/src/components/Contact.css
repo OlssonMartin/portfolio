@@ -1,0 +1,13 @@
+.contact-links {
+    text-align: center; 
+    margin: 20px 0; 
+}
+
+.contact-links a {
+    color: #007bff; 
+    transition: color 0.3s; 
+}
+
+.contact-links a:hover {
+    color: #0056b3; 
+}
