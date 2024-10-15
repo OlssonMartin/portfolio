@@ -18,11 +18,9 @@ const App = () => {
           <header className="welcome-header">
           <div 
                     className="welcome-text" 
-                    onMouseEnter={() => setHover(true)} 
-                    onMouseLeave={() => setHover(false)}
+                   
                 >
-                    <h1 className={`fade ${hover ? 'hidden' : ''}`}>Martin Olsson</h1>
-                    <h1 className={`fade ${hover ? '' : 'hidden'}`}>M/O</h1>
+                    <h1>Martin Olsson</h1>
                     <h2>Frontend Developer</h2>
                 </div>
           </header>
