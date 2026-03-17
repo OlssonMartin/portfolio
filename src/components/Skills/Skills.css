@@ -1,0 +1,26 @@
+.skills {
+    display: grid;
+    gap: 34px;
+  }
+  
+  .skills__group h3 {
+    margin: 0 0 16px;
+    font-size: 0.95rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: rgba(17, 17, 17, 0.45);
+  }
+  
+  .skills__items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+  }
+  
+  .skills__items span {
+    background: rgba(255, 255, 255, 0.72);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 14px 18px;
+    font-weight: 600;
+  }

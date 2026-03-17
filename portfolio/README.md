@@ -1,1 +1,0 @@
-Min Portfolio för LIA sökande
